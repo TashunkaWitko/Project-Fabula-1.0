@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    height: 40em;
+}
+
+h1{
+    text-align: center;
+}
+
+.body{
+    width: 100%;
+    margin: 0 auto;
+    height: 25em;
+    background-image: url(../../assets/fu-sitecover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 90%;
+    border-radius: 10px;
+    
+}
+
+.intro{
+    display: flex;
+    height: 100%;
+    margin: 5% auto;
+    flex-wrap: wrap;
+    justify-content:center;
+    text-align: center;
+    gap: 3%;
+}
+
+.card{
+   max-height: 80%;
+   
+}
+
+@media screen and (max-width: 1200px) {
+
+    h1{
+        display: none;
+    }
+
+    .body{
+        background-image: url(../../assets/fabula-body-responsive.jpeg);
+        background-size: contain;
+        background-position: 50%;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .intro{
+        justify-content:center;
+    }
+
+    .card{
+        margin: 5% auto;
+    }
+}

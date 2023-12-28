@@ -1,0 +1,98 @@
+  
+    <div [ngClass]="NotVisualizeBlair">
+            <button [ngClass]="CloseBlair" (click)="closeBlair()">X</button>
+    </div>
+ 
+    <div [ngClass]="NotVisualizeCassandra">
+             <button [ngClass]="CloseCassandra" (click)="closeCassandra()">X</button>
+    </div>
+ 
+    <div [ngClass]="NotVisualizeEdgar">
+             <button [ngClass]="CloseEdgar" (click)="closeEdgar()">X</button>
+    </div>
+ 
+    <div [ngClass]="NotVisualizeLavigne">
+             <button [ngClass]="CloseLavigne" (click)="closeLavigne()">X</button>
+    </div>
+<div [ngClass]="ToggleScroll">
+    <main role="main">
+
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Benvenuto nel menu di creazione del personaggio</h1>
+        <p class="lead text-muted">Da questo menù potrai iniziare la costruzione del tuo personaggio, alla fine potrai scaricare un pdf del tuo eroe!</p>
+        <p>
+          <a href="#" class="creare btn btn-secondary my-2">Quick build</a>
+          <a href="#" class="creare btn btn-secondary my-2">Standard build</a>
+        </p>
+      </div>
+      <h4>Qui sotto puoi trovare dei personaggi completi da cui prendere spunto</h4>
+    </section>
+
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../../assets/blair-clarimonde.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text">Blair Clarimonde</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" (click)="visualizeBlair()">Visualizza</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../../assets/cassandra.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text">Cassandra</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" (click)="visualizeCassandra()">Visualizza</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../../assets/edgar.jpg" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text">Edgar</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" (click)="visualizeEdgar()">Visualizza</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" src="../../assets/lavigne-fallbright.png" data-holder-rendered="true" style="height: 225px; width: 100%; display: block;">
+              <div class="card-body">
+                <p class="card-text">Lavigne Fallbright</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary" (click)="visualizeLavigne()">Visualizza</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+
+  </main>
+</div> 
